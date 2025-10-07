@@ -1,0 +1,30 @@
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: #f9fbfc;
+  color: #222;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.main-content {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+}
+
+.caption {
+  color: #555;
+  margin-bottom: 2rem;
+}
+/* --- Chatbot positioning --- */
+df-messenger {
+  --df-messenger-bot-message: #e8f0fe;
+  --df-messenger-button-titlebar-color: #2e86c1;
+  --df-messenger-chat-background-color: #ffffff;
+  --df-messenger-font-color: #000;
+  --df-messenger-send-icon: #2e86c1;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}

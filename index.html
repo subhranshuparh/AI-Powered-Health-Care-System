@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna - AI Healthcare Assistant</title>
+</head>
+<body>
+  <h1>Talk to Luna – Your AI Healthcare Assistant</h1>
+  <p>Click the button below to start your consultation:</p>
+
+  <!-- Button to launch AI agent -->
+  <button id="start-luna" style="padding:10px 20px; font-size:16px; cursor:pointer;">Start Consultation</button>
+
+  <!-- Retell AI container (hidden initially) -->
+  <div id="retell-ai-agent" data-agent-id=agent_73c01dd3f7260d7b433b8d48cc style="display:none;"></div>
+
+  <!-- Retell AI Script -->
+  <script src="https://retellai.com/embed/webcall.js"></script>
+
+  <script>
+    const button = document.getElementById("start-luna");
+    const agentDiv = document.getElementById("retell-ai-agent");
+
+    button.addEventListener("click", () => {
+      agentDiv.style.display = "block";  // show the AI agent
+      button.style.display = "none";     // hide the start button
+    });
+  </script>
+</body>
+</html>
