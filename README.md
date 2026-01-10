@@ -1,0 +1,3 @@
+﻿# AI-Powered-Health-Care-System
+
+Heart Disease+Diabetes+Cancer Diagnosis+Body Fat Estimation 

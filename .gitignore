@@ -1,0 +1,72 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+venv/
+env/
+mypro/
+.venv/
+
+# ---- Environment Variables ----
+.env
+*.env
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+logs/
+*.out
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Streamlit / FastAPI ----
+.streamlit/
+.fastapi_cache/
+
+# ---- Temporary files ----
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---- Data / Model files ----
+*.csv
+*.json
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# ---- Node / Frontend (if React frontend exists) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ---- VS Code settings ----
+*.code-workspace
+
+# ---- Backup files ----
+*.bak
+*.orig

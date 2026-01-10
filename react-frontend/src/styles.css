@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: #f9fbfc;
+}
+
+df-messenger {
+  --df-messenger-bot-message: #e0f7fa;
+  --df-messenger-button-titlebar-color: #2e86c1;
+  --df-messenger-chat-background-color: #f4f6f7;
+  --df-messenger-font-color: #000;
+  --df-messenger-send-icon: #2e86c1;
+  --df-messenger-user-message: #d1f2eb;
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  z-index: 2147483647 !important;
+  width: 400px;
+  height: 600px;
+}

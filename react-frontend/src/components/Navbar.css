@@ -1,0 +1,28 @@
+.navbar {
+  background: #2e86c1;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-buttons {
+  margin-top: 0.5rem;
+}
+
+.nav-buttons button {
+  background: #ffffff22;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-buttons button.active {
+  background: #d1f2eb;
+  color: #2e86c1;
+  font-weight: bold;
+}
